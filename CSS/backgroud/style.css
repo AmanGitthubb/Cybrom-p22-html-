@@ -1,0 +1,65 @@
+h1 {
+    text-transform: capitalize;
+    background-color: antiquewhite;
+    color: maroon;
+    margin: 50;
+    padding: 25px;
+    border: 2px solid maroon;
+}
+
+.background-color {
+    background-color: rgb(18, 61, 69);
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.background-image {
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    /* background-image: url(1681725703038.jpg); */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+    border: 20px solid black;
+    
+   
+    
+}
+
+.background-position {
+    background-repeat: no-repeat;
+    /* background-image: url(1681725703038.jpg); */
+    background-size: 50% 50%;
+    /* background-position: top left ; */
+    /* background-position: 50% 50%;*/
+    /* background-position: 100px 500px; */
+    background-position: right 20px bottom 10px;
+
+}
+
+.background-attachments {
+    background-image: url(1681725703038.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.linear-gradient {
+    /* background: linear-gradient(to right, #3498db, #ffcc00); */
+    /* background: linear-gradient(to top, #3498db, #ffcc00); */
+    /* background: linear-gradient(45deg, #3498db, #ffcc00); */
+    /* background: linear-gradient(to right, #3498db, #ffcc00, #e74c3c); */
+    /* background: linear-gradient(to right, #3498db 20%, #ffcc00 50%, #e74c3c 80%); */
+    /* background: repeating-linear-gradient(to right, #3498db, #3498db 30px, #ffcc00 30px, #ffcc00 60px); */
+    
+}
+
+.radial-gradient {
+    /* background: radial-gradient(circle, #3498db, #ffcc00); */
+    /* background: radial-gradient(ellipse closest-corner, #3498db, #ffcc00); */
+    /* background: radial-gradient(circle at 53% 50%, #3498db, #ffcc00); */
+    background: repeating-radial-gradient(circle, #3498db, #3498db 30px, #ffcc00 30px, #ffcc00 60px);
+}
+
